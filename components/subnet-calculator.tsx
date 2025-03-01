@@ -62,7 +62,7 @@ export function SubnetCalculator() {
                 </Select>
               </div>
             </div>
-            <Button onClick={handleCalculate} className="mt-2">
+            <Button onClick={handleCalculate} className="mt-2 bg-teal-800 hover:bg-teal-700">
               Calculate Subnet
             </Button>
             {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
